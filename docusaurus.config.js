@@ -9,6 +9,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   url: 'https://ArcMantis.github.io/',
   baseUrl: '/blog/',
   onBrokenLinks: 'throw',
+  trailingSlash: true,
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Arcmantis', // Usually your GitHub org/user name.
@@ -41,9 +42,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'menu',
+        title: '主页',
         logo: {
-          alt: 'My Site Logo',
+          alt: '主页 Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -51,11 +52,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ArcMantis',
             label: 'GitHub',
             position: 'right',
           },
@@ -68,7 +69,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Intro',
                 to: '/docs/intro',
               },
             ],
@@ -77,16 +78,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Email',
+                href: 'mailto:ArcMantis@outlook.com',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Bilibili',
+                href: 'https://space.bilibili.com/201550636',
               },
             ],
           },
@@ -99,7 +96,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/ArcMantis',
               },
             ],
           },
