@@ -26,7 +26,12 @@ Run the development server:
 
 ```shell
 cd my-website
+npm install
 
+#for Standard Start
+npm run start
+
+#for Temporary Test Launch
 npx docusaurus start
 ```
 
