@@ -9,7 +9,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   url: 'https://ArcMantis.github.io/',
   baseUrl: '/blog/',
   onBrokenLinks: 'throw',
-  trailingSlash: true,
+  trailingSlash: false,
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Arcmantis', // Usually your GitHub org/user name.
