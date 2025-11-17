@@ -1,4 +1,4 @@
 # blog
 
-叫我去？
+主网址：https://arcmantis.github.io/blog/
 

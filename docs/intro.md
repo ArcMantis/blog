@@ -2,39 +2,7 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 导航
 
-Let's discover **Docusaurus in less than 5 minutes**.
+本版块主要是一些操作手顺，和日常需要看的资料，请根据需要在左侧查找自己需要的内容。
 
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-npm install
-
-#for Standard Start
-npm run start
-
-#for Temporary Test Launch
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
