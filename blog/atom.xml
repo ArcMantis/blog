@@ -8,51 +8,36 @@
     <subtitle>老查的小屋 Blog</subtitle>
     <icon>https://ArcMantis.github.io/blog/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
+        <title type="html"><![CDATA[欢迎回家]]></title>
         <id>welcome</id>
         <link href="https://ArcMantis.github.io/blog/blog/welcome"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
+        <summary type="html"><![CDATA[只需将 Markdown 文件（或文件夹）添加到 blog 目录即可。]]></summary>
         <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://github.com/yangshun</uri>
+            <name>老查</name>
+            <uri>https://github.com/ArcMantis</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
+        <title type="html"><![CDATA[支持js代码的博客]]></title>
         <id>mdx-blog-post</id>
         <link href="https://ArcMantis.github.io/blog/blog/mdx-blog-post"/>
         <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
+        <summary type="html"><![CDATA[博客文章支持 Docusaurus Markdown features，例如 MDX。]]></summary>
         <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
+            <name>老查</name>
+            <uri>https://github.com/ArcMantis</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>long-blog-post</id>
-        <link href="https://ArcMantis.github.io/blog/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <author>
-            <name>Endilie Yacop Sucipto</name>
-            <uri>https://github.com/endiliey</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
+        <title type="html"><![CDATA[第一个博客]]></title>
         <id>first-blog-post</id>
         <link href="https://ArcMantis.github.io/blog/blog/first-blog-post"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+        <summary type="html"><![CDATA[我是老查,这是我的第一个博客,不知道说些什么,哈哈哈~~]]></summary>
         <author>
-            <name>Gao Wei</name>
-            <uri>https://github.com/wgao19</uri>
+            <name>老查</name>
+            <uri>https://github.com/ArcMantis</uri>
         </author>
     </entry>
 </feed>

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkzzhouse=self.webpackChunkzzhouse||[]).push([[7072],{8093:l=>{l.exports=JSON.parse('{"allTagsPath":"/blog/blog/tags","slug":"/blog/blog/tags/hello","name":"hello","count":2,"permalink":"/blog/blog/tags/hello"}')}}]);
