@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://ArcMantis.github.io/blog</id>
+    <id>https://ArcMantis.github.io/blog/blog</id>
     <title>老查的小屋 Blog</title>
     <updated>2026-04-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://ArcMantis.github.io/blog"/>
+    <link rel="alternate" href="https://ArcMantis.github.io/blog/blog"/>
     <subtitle>老查的小屋 Blog</subtitle>
-    <icon>https://ArcMantis.github.io/img/favicon.ico</icon>
+    <icon>https://ArcMantis.github.io/blog/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[关闭蓝牙的绝对音量]]></title>
-        <id>https://ArcMantis.github.io/blog/turn-off-absolute-volume</id>
-        <link href="https://ArcMantis.github.io/blog/turn-off-absolute-volume"/>
+        <id>https://ArcMantis.github.io/blog/blog/turn-off-absolute-volume</id>
+        <link href="https://ArcMantis.github.io/blog/blog/turn-off-absolute-volume"/>
         <updated>2026-04-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[买了个蓝牙音箱,多少有点毛病.]]></summary>
         <content type="html"><![CDATA[<p>买了个蓝牙音箱,多少有点毛病.</p>
@@ -25,11 +25,11 @@
 <div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">wpctl status</span><br></div></code></pre></div></div>
 <p>2.执行下面的命令可以查看wireplumber的版本,版本在0.5以上.</p>
 <div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">wireplumber --version</span><br></div></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1创建目录">1.创建目录<a href="https://arcmantis.github.io/blog/turn-off-absolute-volume#1%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95" class="hash-link" aria-label="1.创建目录的直接链接" title="1.创建目录的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1创建目录">1.创建目录<a href="https://arcmantis.github.io/blog/blog/turn-off-absolute-volume#1%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95" class="hash-link" aria-label="1.创建目录的直接链接" title="1.创建目录的直接链接" translate="no">​</a></h2>
 <div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">mkdir -p ~/.config/wireplumber/wireplumber.conf.d</span><br></div></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2编辑文件">2.编辑文件<a href="https://arcmantis.github.io/blog/turn-off-absolute-volume#2%E7%BC%96%E8%BE%91%E6%96%87%E4%BB%B6" class="hash-link" aria-label="2.编辑文件的直接链接" title="2.编辑文件的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2编辑文件">2.编辑文件<a href="https://arcmantis.github.io/blog/blog/turn-off-absolute-volume#2%E7%BC%96%E8%BE%91%E6%96%87%E4%BB%B6" class="hash-link" aria-label="2.编辑文件的直接链接" title="2.编辑文件的直接链接" translate="no">​</a></h2>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">vim ~/.config/wireplumber/wireplumber.conf.d/80-bluez-properties.conf</span><br></div></code></pre></div></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-输入下面的内容">3 输入下面的内容<a href="https://arcmantis.github.io/blog/turn-off-absolute-volume#3-%E8%BE%93%E5%85%A5%E4%B8%8B%E9%9D%A2%E7%9A%84%E5%86%85%E5%AE%B9" class="hash-link" aria-label="3 输入下面的内容的直接链接" title="3 输入下面的内容的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-输入下面的内容">3 输入下面的内容<a href="https://arcmantis.github.io/blog/blog/turn-off-absolute-volume#3-%E8%BE%93%E5%85%A5%E4%B8%8B%E9%9D%A2%E7%9A%84%E5%86%85%E5%AE%B9" class="hash-link" aria-label="3 输入下面的内容的直接链接" title="3 输入下面的内容的直接链接" translate="no">​</a></h2>
 <div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain"> monitor.bluez.properties = {</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">   bluez5.enable-hw-volume = false</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"> }</span><br></div></code></pre></div></div>
 <p>最后最好是重启电脑,然后就可以实现音箱物理按钮和系统音量的分离</p>]]></content>
         <author>
@@ -40,8 +40,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[欢迎回家]]></title>
-        <id>https://ArcMantis.github.io/blog/welcome</id>
-        <link href="https://ArcMantis.github.io/blog/welcome"/>
+        <id>https://ArcMantis.github.io/blog/blog/welcome</id>
+        <link href="https://ArcMantis.github.io/blog/blog/welcome"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[啦啦啦。。。]]></summary>
         <content type="html"><![CDATA[<p>啦啦啦。。。</p>
@@ -54,7 +54,7 @@
 <li class=""><code>2019-05-30-welcome/index.md</code></li>
 </ul>
 <p>博客文章文件夹可以方便地将博客文章图片集中存放：</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://arcmantis.github.io/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://arcmantis.github.io/blog/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
 <p>该博客也支持标签！如果博客文件都包含某个标签,那么点击后会显示所有行有标签的博客</p>
 <p><strong>如果您不需要博客</strong>：只需删除此目录，并在 Docusaurus 配置中使用 <code>blog: false</code> 即可。</p>]]></content>
         <author>
@@ -67,8 +67,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[支持js代码的博客]]></title>
-        <id>https://ArcMantis.github.io/blog/mdx-blog-post</id>
-        <link href="https://ArcMantis.github.io/blog/mdx-blog-post"/>
+        <id>https://ArcMantis.github.io/blog/blog/mdx-blog-post</id>
+        <link href="https://ArcMantis.github.io/blog/blog/mdx-blog-post"/>
         <updated>2021-08-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[博客文章支持 Docusaurus Markdown features，例如 MDX。]]></summary>
         <content type="html"><![CDATA[<p>博客文章支持 <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer" class="">Docusaurus Markdown features</a>，例如 <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer" class="">MDX</a>。</p>
@@ -81,8 +81,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[第一个博客]]></title>
-        <id>https://ArcMantis.github.io/blog/first-blog-post</id>
-        <link href="https://ArcMantis.github.io/blog/first-blog-post"/>
+        <id>https://ArcMantis.github.io/blog/blog/first-blog-post</id>
+        <link href="https://ArcMantis.github.io/blog/blog/first-blog-post"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[我是老查,这是我的第一个博客,不知道说些什么,哈哈哈~~]]></summary>
         <content type="html"><![CDATA[<p>我是老查,这是我的第一个博客,不知道说些什么,哈哈哈~~</p>
