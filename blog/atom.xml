@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ArcMantis.github.io/blog/blog"/>
     <subtitle>老查的小屋 Blog</subtitle>
-    <icon>https://ArcMantis.github.io/blog/img/favicon.ico</icon>
+    <icon>https://ArcMantis.github.io/blog/img/app.ico</icon>
     <entry>
         <title type="html"><![CDATA[如何从浏览器获取cookies]]></title>
         <id>https://ArcMantis.github.io/blog/blog/get-cookies-from-browser</id>
