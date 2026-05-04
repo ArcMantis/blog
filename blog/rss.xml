@@ -4,10 +4,45 @@
         <title>老查的小屋 Blog</title>
         <link>https://ArcMantis.github.io/blog/blog</link>
         <description>老查的小屋 Blog</description>
-        <lastBuildDate>Mon, 20 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 May 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[如何从浏览器获取cookies]]></title>
+            <link>https://ArcMantis.github.io/blog/blog/get-cookies-from-browser</link>
+            <guid>https://ArcMantis.github.io/blog/blog/get-cookies-from-browser</guid>
+            <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cookies 是网站用来记住你“是谁”和“做过什么”的小文件——有了它，你登录视频网站后不用每次输密码，下载工具也能用你的会员身份去下载付费视频。]]></description>
+            <content:encoded><![CDATA[<p>Cookies 是网站用来记住你“是谁”和“做过什么”的小文件——有了它，你登录视频网站后不用每次输密码，下载工具也能<code>用你的会员身份</code>去下载付费视频。<br>
+<strong><code>无 Cookie</code></strong>：只能下载公开、免费的普通视频<br>
+<strong><code>有 Cookie</code></strong>：如果你浏览器登录的账号是会员，那么此时获取的cookies具备下载会员专属视频权限。</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="安装获取cookie的浏览器插件">安装获取cookie的浏览器插件<a href="https://arcmantis.github.io/blog/blog/get-cookies-from-browser#%E5%AE%89%E8%A3%85%E8%8E%B7%E5%8F%96cookie%E7%9A%84%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6" class="hash-link" aria-label="安装获取cookie的浏览器插件的直接链接" title="安装获取cookie的浏览器插件的直接链接" translate="no">​</a></h2>
+<p>推荐使用安全、开源的 <strong>Get cookies.txt LOCALLY</strong> 插件。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="各浏览器安装方式">各浏览器安装方式<a href="https://arcmantis.github.io/blog/blog/get-cookies-from-browser#%E5%90%84%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F" class="hash-link" aria-label="各浏览器安装方式的直接链接" title="各浏览器安装方式的直接链接" translate="no">​</a></h3>
+<p><strong>Firefox</strong></p>
+<ul>
+<li class="">打开附加组件管理页面：<code>about:addons</code></li>
+<li class="">搜索插件名称即可安装</li>
+</ul>
+<p><strong>Chrome / Edge</strong></p>
+<ul>
+<li class="">访问 Chrome 网上应用店：<a href="https://chromewebstore.google.com/" target="_blank" rel="noopener noreferrer" class="">https://chromewebstore.google.com/</a></li>
+<li class="">搜索插件名称并安装</li>
+</ul>
+<blockquote>
+<p>⚠️ <strong>Edge 用户注意</strong>：Edge 商店无法直接搜到此插件，需先开启“允许来自其他应用商店的扩展”功能，再通过 Chrome 商店链接安装。</p>
+</blockquote>
+<p><img decoding="async" loading="lazy" alt="插件商店图片" src="https://arcmantis.github.io/blog/assets/images/1getcookies-local-4568cdecc242b084a38552a6c06aa90e.png" width="1121" height="247" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="使用插件">使用插件<a href="https://arcmantis.github.io/blog/blog/get-cookies-from-browser#%E4%BD%BF%E7%94%A8%E6%8F%92%E4%BB%B6" class="hash-link" aria-label="使用插件的直接链接" title="使用插件的直接链接" translate="no">​</a></h2>
+<p>按照下图所示，点击该插件，然后选择"Export All Cookies"选项。
+<img decoding="async" loading="lazy" alt="使用插件" src="https://arcmantis.github.io/blog/assets/images/2get-cookies-6a75c5a9c4c59fa589171bde5d30c913.png" width="730" height="390" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="得到cookiestxt">得到cookies.txt<a href="https://arcmantis.github.io/blog/blog/get-cookies-from-browser#%E5%BE%97%E5%88%B0cookiestxt" class="hash-link" aria-label="得到cookies.txt的直接链接" title="得到cookies.txt的直接链接" translate="no">​</a></h2>
+<p>打开文件管理器，在下载页面即可得到该cookies.txt,现在去使用它吧。
+<img decoding="async" loading="lazy" alt="插件商店图片" src="https://arcmantis.github.io/blog/assets/images/3i-got-my-cookie-ff5f1aa2415742457ddf33508bce5810.png" width="1020" height="277" class="img_ev3q"></p>]]></content:encoded>
+            <category>chore</category>
+        </item>
         <item>
             <title><![CDATA[关闭蓝牙的绝对音量]]></title>
             <link>https://ArcMantis.github.io/blog/blog/turn-off-absolute-volume</link>
