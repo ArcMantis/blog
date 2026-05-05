@@ -2,11 +2,104 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ArcMantis.github.io/blog/blog</id>
     <title>老查的小屋 Blog</title>
-    <updated>2026-05-04T00:00:00.000Z</updated>
+    <updated>2026-05-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ArcMantis.github.io/blog/blog"/>
     <subtitle>老查的小屋 Blog</subtitle>
     <icon>https://ArcMantis.github.io/blog/img/app.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[如何打开安卓手机的无线调试并且配对]]></title>
+        <id>https://ArcMantis.github.io/blog/blog/enable-wireless-debugging</id>
+        <link href="https://ArcMantis.github.io/blog/blog/enable-wireless-debugging"/>
+        <updated>2026-05-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本文写给刚接触安卓玩机的朋友们看的，无线投屏只有安卓11以上才支持，如果安卓11一下，请用usb连接模式。]]></summary>
+        <content type="html"><![CDATA[<p>本文写给刚接触安卓玩机的朋友们看的，无线投屏只有安卓11以上才支持，如果安卓11一下，请用usb连接模式。</p>
+<!-- -->
+<p>适用条件：<strong>Android 11 及以上</strong>，支持 <code>无线调试</code> 功能。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="一进入开发者选项">一、进入开发者选项<a href="https://arcmantis.github.io/blog/blog/enable-wireless-debugging#%E4%B8%80%E8%BF%9B%E5%85%A5%E5%BC%80%E5%8F%91%E8%80%85%E9%80%89%E9%A1%B9" class="hash-link" aria-label="一、进入开发者选项的直接链接" title="一、进入开发者选项的直接链接" translate="no">​</a></h2>
+<ol>
+<li class="">打开 <strong>设置</strong> → <strong>关于手机</strong> → 连续点击 <strong>版本号</strong>（或“软件版本”）7 次</li>
+<li class="">提示“已进入开发者模式”即可</li>
+</ol>
+<blockquote>
+<p>部分系统路径稍有差异（如 MIUI 在“更多设置”中）</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="二开启无线调试">二、开启无线调试<a href="https://arcmantis.github.io/blog/blog/enable-wireless-debugging#%E4%BA%8C%E5%BC%80%E5%90%AF%E6%97%A0%E7%BA%BF%E8%B0%83%E8%AF%95" class="hash-link" aria-label="二、开启无线调试的直接链接" title="二、开启无线调试的直接链接" translate="no">​</a></h2>
+<ol>
+<li class="">返回 <strong>设置</strong> → <strong>系统 / 更多设置</strong> → <strong>开发者选项</strong></li>
+<li class="">找到 <strong>无线调试</strong>（Wireless debugging）</li>
+<li class="">点击开关 <strong>开启</strong></li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="三获取-6-位配对码并连接">三、获取 6 位配对码并连接<a href="https://arcmantis.github.io/blog/blog/enable-wireless-debugging#%E4%B8%89%E8%8E%B7%E5%8F%96-6-%E4%BD%8D%E9%85%8D%E5%AF%B9%E7%A0%81%E5%B9%B6%E8%BF%9E%E6%8E%A5" class="hash-link" aria-label="三、获取 6 位配对码并连接的直接链接" title="三、获取 6 位配对码并连接的直接链接" translate="no">​</a></h2>
+<p>打开“无线调试”后，请跟着下面的步骤做：</p>
+<ol>
+<li class="">
+<p><strong>点“无线调试”这几个字</strong>（注意：不是点它右边的开关，是点文字本身）。<br>
+点进去后会看到一个 IP 地址和端口号。<br>
+⚠️ 这个地址是用来“连接”的，<strong>不是配对的</strong>，先不要用它。</p>
+</li>
+<li class="">
+<p>在页面下方找到并点击 <strong>“使用配对码配对”</strong>（有些手机显示的是“+ 设备配对”或 “Pair with code”）。</p>
+</li>
+<li class="">
+<p>系统会弹出一个窗口，上面有一个 <strong>6 位数字的配对码</strong>，同时也会显示 IP 地址和端口。<br>
+配对码倒计时通常在 2–3 分钟，请在时间内完成下一步。</p>
+</li>
+<li class="">
+<p>把上一步看到的 <strong>6 位配对码</strong> 填到对应位置，然后点击 <strong>“配对”</strong>。<br>
+注意：这一步只是完成配对，还没有真正连接。<br>
+✔️ 部分高版本安卓手机会在配对成功后，直接出现新设备。如果看到了，可以跳过下一步。<br>
+❌ 如果没有出现，请继续执行第 5 步。</p>
+</li>
+<li class="">
+<p><strong>手动连接</strong><br>
+回到第 1 步看到的那个 IP 地址和端口（IP 一般不会变，主要是端口会变），把它们填好，然后点击 <strong>“连接”</strong> 即可。</p>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="四注意事项">四、注意事项<a href="https://arcmantis.github.io/blog/blog/enable-wireless-debugging#%E5%9B%9B%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9" class="hash-link" aria-label="四、注意事项的直接链接" title="四、注意事项的直接链接" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>WiFi 必须开启</strong>，且电脑与手机连接同一局域网</li>
+<li class="">配对码 <strong>每次生成不同</strong>，超时需重新生成</li>
+<li class="">若无法弹出配对码，检查是否误触了“二维码配对”</li>
+<li class="">配对只要第一次就好了，但是每次使用需要连接。</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="五常见机型路径参考">五、常见机型路径参考<a href="https://arcmantis.github.io/blog/blog/enable-wireless-debugging#%E4%BA%94%E5%B8%B8%E8%A7%81%E6%9C%BA%E5%9E%8B%E8%B7%AF%E5%BE%84%E5%8F%82%E8%80%83" class="hash-link" aria-label="五、常见机型路径参考的直接链接" title="五、常见机型路径参考的直接链接" translate="no">​</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>品牌</th><th>开发者选项位置</th></tr></thead><tbody><tr><td>原生 / Pixel</td><td>设置 → 关于手机 → 版本号</td></tr><tr><td>小米 HyperOS</td><td>设置 → 更多设置 → 开发者选项 → 无线调试</td></tr><tr><td>OPPO/ColorOS</td><td>设置 → 关于本机 → 版本信息 → 版本号</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="六完成标志">六、完成标志<a href="https://arcmantis.github.io/blog/blog/enable-wireless-debugging#%E5%85%AD%E5%AE%8C%E6%88%90%E6%A0%87%E5%BF%97" class="hash-link" aria-label="六、完成标志的直接链接" title="六、完成标志的直接链接" translate="no">​</a></h2>
+<p>成功配对后，你会在手机看到页面下方多了你的电脑设备。</p>]]></content>
+        <author>
+            <name>老查</name>
+            <uri>https://github.com/ArcMantis</uri>
+        </author>
+        <category label="chore" term="chore"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何从浏览器获取cookies]]></title>
         <id>https://ArcMantis.github.io/blog/blog/get-cookies-from-browser</id>
