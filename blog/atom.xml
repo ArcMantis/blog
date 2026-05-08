@@ -127,6 +127,9 @@
 <p>⚠️ <strong>Edge 用户注意</strong>：Edge 商店无法直接搜到此插件，需先开启“允许来自其他应用商店的扩展”功能，再通过 Chrome 商店链接安装。</p>
 </blockquote>
 <p><img decoding="async" loading="lazy" alt="插件商店图片" src="https://arcmantis.github.io/blog/assets/images/1getcookies-local-4568cdecc242b084a38552a6c06aa90e.png" width="1121" height="247" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="给与插件权限">给与插件权限<a href="https://arcmantis.github.io/blog/blog/get-cookies-from-browser#%E7%BB%99%E4%B8%8E%E6%8F%92%E4%BB%B6%E6%9D%83%E9%99%90" class="hash-link" aria-label="给与插件权限的直接链接" title="给与插件权限的直接链接" translate="no">​</a></h2>
+<p>进入刚才的插件设置页面，允许所有站点访问。
+<img decoding="async" loading="lazy" alt="权限设置页面" src="https://arcmantis.github.io/blog/assets/images/4cookie-setting-243f41ed381bcba3705650985d2cee78.png" width="850" height="587" class="img_ev3q"></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="使用插件">使用插件<a href="https://arcmantis.github.io/blog/blog/get-cookies-from-browser#%E4%BD%BF%E7%94%A8%E6%8F%92%E4%BB%B6" class="hash-link" aria-label="使用插件的直接链接" title="使用插件的直接链接" translate="no">​</a></h2>
 <p>按照下图所示，点击该插件，然后选择"Export All Cookies"选项。
 <img decoding="async" loading="lazy" alt="使用插件" src="https://arcmantis.github.io/blog/assets/images/2get-cookies-6a75c5a9c4c59fa589171bde5d30c913.png" width="730" height="390" class="img_ev3q"></p>
